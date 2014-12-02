@@ -1,0 +1,81 @@
+body {  
+  background: radial-gradient(circle, #8d8d8d 1%, #000);
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  height: 800px;
+}
+
+header #logo {
+  position: relative;
+  top: 10px;
+}
+
+/*================= GAMEBOARD ================*/
+
+#game {
+  background-image: url("images/bg-img.jpg");
+  margin: 0 auto;
+  height: 600px;
+  width: 800px;
+  position: relative;
+  top: 65px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 5px 1px #515151;
+}
+
+/*================= ASTEROIDS L TO R ================*/
+
+#asteroid1, #asteroid2, #asteroid3, #asteroid4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1;
+}
+
+/*================= MEGAMAN OBJECT ================*/
+
+#mm {
+  position: absolute;
+  top: 20px;
+  left: 35px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 1;
+}
+
+/*================= START BUTTON ================*/
+
+#start_timer {
+  border-radius: 15px;
+  box-shadow: inset -1px -1px 1px 1px #515151;
+  background-color: white;
+  height: 40px;
+  width: 180px;
+
+  font-family: "megaman 2";
+  font-weight: bold;
+  font-size: 12px;
+  color: #0000ee;
+  letter-spacing: 1px;
+
+  position: relative;
+  top: -593px;
+}
+
+/*================= TIMER ================*/
+
+#display_time {
+  position: relative;
+  top: -20px;
+  left: 30px;
+
+  height: 40px;
+  width: 40px;
+
+  color: white;
+  font-family: "megaman 2";
+  font-weight: bold;
+  font-size: 30px;
+}
+
